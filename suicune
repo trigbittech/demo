@@ -1,0 +1,19 @@
+Create a small project using React, Material-ui, React Router and Apollo Graphql.
+You will use the public graphql api from the German railway system: https://bahnql.herokuapp.com/graphql
+
+Functionality 
+- Create a form that allows users to search stations by name (the names are based on cities (Hannover, etc))
+- The form will show lists of station names that updates as the user types
+- As the user types, make sure no more than 1 request is sent per 250ms
+- Allow the user to click on a result to go to a detail page
+- Display a number of icons based on at least 5 of the available services at that station
+- Maintain a list that displays the last 5 detail pages that were visited and display it in the front end
+
+Requirements
+- Use Material-ui for all UI components 
+- Use hooks for all Apollo queries
+- Avoid the use of React classes
+- Test your front end code functionality using react-testing-library*********
+- Publish the result on Github and make a small video demoing your project and explaining the choices you made
+- Use the minimum amount of third party libraries necessary other than the aforementioned libs. 
+- Structure your component hierarchy in a sensible way
